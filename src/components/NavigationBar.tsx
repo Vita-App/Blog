@@ -7,7 +7,6 @@ import Logo from "../images/logo.png"
 
 
 // CSS imports
-import '../styles/global.css';
 import "../styles/navbar.css";
 
 function NavigationBar() {
