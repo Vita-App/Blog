@@ -1,10 +1,17 @@
 import * as React from "react"
 import type { HeadFC } from "gatsby"
 
+// CSS imports
+import '../styles/global.css';
+
+// Component imports
+import NavigationBar from "../components/NavigationBar";
 
 const IndexPage = () => {
   return (
-    <h1>Vita Blog Skeleton</h1>
+    <>
+      <NavigationBar/>
+    </>
   )
 }
 
