@@ -1,0 +1,26 @@
+#nav-container {
+    background-color: #242424;
+    color: white;
+}
+
+#vita-logo {
+    height: 48px;
+    width: 48px;
+    
+}
+
+#nav-link {
+    background-color: #424040;
+    color: white;
+}
+
+#login-btn {
+    background-color: #5D88C0;
+    color: white;
+}
+
+#signup-btn {
+    background-color: #5D88C0;
+    color: white;
+}
+
