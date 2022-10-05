@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      mobile: "320px",
+      desktop: "1440px",
+      tablet: "768px",
+    },
   },
   plugins: [],
-}
+};
