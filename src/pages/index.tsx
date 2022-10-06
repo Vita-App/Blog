@@ -1,8 +1,9 @@
-import * as React from "react"
-import type { HeadFC } from "gatsby"
+import * as React from "react";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import type { HeadFC } from "gatsby";
 
 // CSS imports
-import '../styles/global.css';
+import "../styles/global.css";
 
 // Component imports
 import NavigationBar from "../components/NavigationBar";
@@ -10,11 +11,11 @@ import NavigationBar from "../components/NavigationBar";
 const IndexPage = () => {
   return (
     <>
-      <NavigationBar/>
+      <NavigationBar />
     </>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home</title>
+export const Head: HeadFC = () => <title>Home</title>;
