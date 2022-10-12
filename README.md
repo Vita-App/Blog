@@ -14,6 +14,7 @@ JWT_SECRET=tobemodified
 ```
 
 replace `tobemodified` with any random `base64` string (you can find many base64 generators online).
+- populate the strapi server with some dummy content before making api calls.
 
 - In the project root create an `.env.development` file and populate it with the following fields,
   ```
